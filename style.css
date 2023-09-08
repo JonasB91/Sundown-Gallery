@@ -1,5 +1,4 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,9 +26,6 @@ body {
     padding-top: 15px;
     border: 8px solid bisque;
     border-radius: 25px;
-    box-shadow: 0 0 0 rgb(235, 235, 43);
-    
-    
 }
 
 header {
@@ -62,5 +58,49 @@ a {
     display: flex;
     gap: 2rem;
     margin-left: auto;
+}
+
+.section-text {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.section-text h1 {
+    font-size: 35px;
+    font-family: 'Stranger', sans-serif;
+}
+
+.text-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+    margin: 10px;
+    padding-top: 10vh;
+    margin-right: 10px;
+}
+
+.alice-walker {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-bottom: 10vh;
+    
+}
+.alice-walker h2 {
+    font-family: 'Rinkle Belle', sans-serif;
+}
+
+.helen-keller {
+    padding-top: 20vh;
+    font-size: 12px;
+    padding-left: 10px;
+    
+}
+
+.helen-keller h2 {
+    font-family: 'Rinkle Belle', sans-serif;
 }
 
