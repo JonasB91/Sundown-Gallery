@@ -19,7 +19,6 @@ body {
     background-color: gray;
     margin: 0 auto;
     align-items: flex-start;
-    font-size: 24px;
     background-image: url(Background-navbar.jpg);
     background-position: center;
     background-size: cover;
@@ -30,7 +29,7 @@ body {
 
 header {
     color: black;
-    font-size: 0 2rem;
+    font-size: 0 1.5rem;
     position: relative;
 }
 
@@ -42,14 +41,21 @@ li {
 a {
     color: rgb(235, 235, 43);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
+    
+}
+
+a:hover {
+    background-color: gray;
+    border-radius: 10px;
+    
 }
 
 .navbar .logo {
     color: rgb(235, 235, 43);
     padding-left: 15px;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 
@@ -58,6 +64,7 @@ a {
     display: flex;
     gap: 2rem;
     margin-left: auto;
+    padding-top: 10px;
 }
 
 .section-text {
@@ -121,5 +128,24 @@ a {
     min-height: 100%;
     object-fit: contain;
     border-radius: 10px;
+}
+
+/* Footern med copyright text */
+footer {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+}
+
+p.copyright {
+    width: 100%;
+    color: grey;
+    line-height: 50px;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0;
 }
 
