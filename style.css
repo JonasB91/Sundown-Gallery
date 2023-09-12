@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: bisque;
+    
+}
+
+.navbar {
+    display: flex;
+    height: 35vh;
+    justify-content: space-between;
+    width: 100%;
+    background-color: gray;
+    margin: 0 auto;
+    align-items: flex-start;
+    background-image: url(Background-navbar.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 15px;
+    border: 8px solid bisque;
+    border-radius: 25px;
+}
+
+header {
+    color: black;
+    font-size: 0 1.5rem;
+    position: relative;
+}
+
+li {
+    list-style: none;
+    
+}
+
+a {
+    color: rgb(235, 235, 43);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+a:hover {
+    background-color: gray;
+    border-radius: 10px;
+    
+}
+
+.navbar .logo {
+    color: rgb(235, 235, 43);
+    padding-left: 15px;
+    font-size: 18px;
+    
+}
+
+.navbar .links {
+    color: rgb(235, 235, 43);
+    display: flex;
+    gap: 2rem;
+    margin-left: auto;
+    padding-top: 10px;
+}
+
+.section-text {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.section-text h1 {
+    font-size: 35px;
+    font-family: 'Stranger', sans-serif;
+}
+
+.text-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+    margin: 10px;
+    padding-top: 10vh;
+    margin-right: 10px;
+}
+
+.alice-walker {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-bottom: 10vh;
+    
+}
+.alice-walker h2 {
+    font-family: 'Rinkle Belle', sans-serif;
+}
+
+.helen-keller {
+    padding-top: 20vh;
+    font-size: 12px;
+    padding-left: 10px;
+    
+}
+
+.helen-keller h2 {
+    font-family: 'Rinkle Belle', sans-serif;
+}
+
+.picture-container {
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: auto;
+    position: absolute;
+    align-items: center;
+    margin: 0;
+    border: 50px solid bisque;
+        
+}
+
+.picture-container img {
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+/* Footern med copyright text */
+footer {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+}
+
+p.copyright {
+    width: 100%;
+    color: grey;
+    line-height: 50px;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0;
+}
+
